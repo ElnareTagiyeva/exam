@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  color: white;
+}
+.header .carousel-inner {
+  position: absolute;
+}
+.header .navbar {
+  position: relative;
+}
+.header .navbar ul {
+  word-spacing: 10px;
+}
+.header .navbar ul li {
+  display: inline-block;
+  color: white;
+}
+.header .navbar .phone p {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(253, 120, 79);
+}
+.header h1 {
+  position: relative;
+  padding: 13%;
+  font-size: 60px;
+}
+
+.about {
+  margin: 20px;
+}
+.about h2 {
+  color: rgb(253, 120, 79);
+}
+.about h3 {
+  color: rgb(14, 29, 65);
+}
+.about p {
+  color: rgb(178, 186, 196);
+}
+
+.container .row {
+  border: 2px black;
+}
+.container .row .card {
+  background-color: rgb(237, 239, 244);
+}
+.container .row .card .card-body {
+  height: 100px;
+}
+.container .row .card .card-body span {
+  font-size: 15px;
+  color: rgb(14, 29, 65);
+}
+.container .row .card .card-body button {
+  background-color: rgb(253, 120, 79);
+  border: 1px solid;
+  color: white;
+  font-size: 16px;
+}
+.container .row .card .card-body :hover {
+  box-shadow: 10px 10px solid;
+}
+.container .row .card .card-footer {
+  width: 100%;
+}
+.container .row .card .card-footer .text-muted {
+  background-color: rgb(14, 29, 65);
+  display: flex;
+}
+.container .row .card .card-footer .text-muted .icon {
+  font-size: 40px;
+  color: rgb(253, 120, 79);
+}
+.container .row .card .card-footer .text-muted .price {
+  color: white;
+  margin-left: 20px;
+}
+
+.section {
+  background-color: rgb(33, 40, 65);
+  width: 100%;
+}
+.section .row h2 {
+  color: white;
+}
+.section .row p {
+  color: rgb(198, 193, 193);
+}
+.section .row .line {
+  color: rgb(253, 120, 79);
+}
+.section .row .section1 {
+  width: 70%;
+  height: 10%;
+  margin-left: 15%;
+}
+.section .row .section1 .carousel-item img {
+  border-radius: 50%;
+}
+.section .row .section1 .carousel-item h4 {
+  font-size: 12px;
+  color: rgb(253, 120, 79);
+}
+.section .row .section1 .carousel-item h5 {
+  font-size: 10px;
+}
+
+.container .carusel .pika {
+  position: absolute;
+}
+.container .carusel .pika button {
+  position: relative;
+}
